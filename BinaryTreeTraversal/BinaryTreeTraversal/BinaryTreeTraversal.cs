@@ -19,7 +19,10 @@ namespace BinaryTreeTraversal
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            public class Node
+            // Code for Form1_Load event handler
+        }
+
+        public class Node
         {
             public string data;
             public Node left, right;
@@ -75,32 +78,32 @@ namespace BinaryTreeTraversal
                 PrintPostorder(node.right);
                 Console.Write(node.data + " ");
             }
+        }
 
-            public static void Main()
-            {
-                BinaryTree tree = new BinaryTree();
+        public static void Main()
+        {
+            BinaryTree tree = new BinaryTree();
 
-                // 5 both sides (bali 11 nodes)
-                tree.root = new Node("Button1"); // buttons sa form1 (pa-tree yung style)
-                tree.root.left = new Node("Button2");
-                tree.root.right = new Node("Button3");
-                tree.root.left.left = new Node("Button4");
-                tree.root.left.right = new Node("Button5");
+            // 5 both sides (bali 11 nodes)
+            tree.root = new Node("Button1"); // buttons sa form1 (pa-tree yung style)
+            tree.root.left = new Node("Button2");
+            tree.root.right = new Node("Button3");
+            tree.root.left.left = new Node("Button4");
+            tree.root.left.right = new Node("Button5");
 
 
-                // output sa babang side ng forms with label (inorder(LTR), TLR, LRT)
-                Console.Write("Inorder traversal: ");
-                tree.PrintInorder(tree.root);
-                Console.WriteLine(); //palabasin niyo ako sa forms mga pareh
+            // output sa babang side ng forms with label (inorder(LTR), TLR, LRT)
+            Console.Write("Inorder traversal: ");
+            tree.PrintInorder(tree.root);
+            Console.WriteLine(); //palabasin niyo ako sa forms mga pareh
 
-                Console.Write("Preorder traversal: ");
-                tree.PrintPreorder(tree.root);
-                Console.WriteLine();
+            Console.Write("Preorder traversal: ");
+            tree.PrintPreorder(tree.root);
+            Console.WriteLine();
 
-                Console.Write("Postorder traversal: ");
-                tree.PrintPostorder(tree.root);
-                Console.WriteLine();
-            }
+            Console.Write("Postorder traversal: ");
+            tree.PrintPostorder(tree.root);
+            Console.WriteLine();
         }
     }
 }
