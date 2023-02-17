@@ -1,0 +1,9 @@
+C:\Users\caskie\source\repos\BinaryTreeTraversal\BinaryTreeTraversal\bin\Debug\BinaryTreeTraversal.exe.config
+C:\Users\caskie\source\repos\BinaryTreeTraversal\BinaryTreeTraversal\bin\Debug\BinaryTreeTraversal.exe
+C:\Users\caskie\source\repos\BinaryTreeTraversal\BinaryTreeTraversal\bin\Debug\BinaryTreeTraversal.pdb
+C:\Users\caskie\source\repos\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.csproj.AssemblyReference.cache
+C:\Users\caskie\source\repos\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.Properties.Resources.resources
+C:\Users\caskie\source\repos\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.csproj.GenerateResource.cache
+C:\Users\caskie\source\repos\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.csproj.CoreCompileInputs.cache
+C:\Users\caskie\source\repos\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.exe
+C:\Users\caskie\source\repos\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.pdb
