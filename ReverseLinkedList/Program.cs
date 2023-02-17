@@ -9,6 +9,7 @@ class GFG
     {
         LinkedList list = new LinkedList();
         list.AddNode(new LinkedList.Node(85));
+        list.AddNode(new LinkedList.Node(15));
         list.AddNode(new LinkedList.Node(4));
         list.AddNode(new LinkedList.Node(20));
 

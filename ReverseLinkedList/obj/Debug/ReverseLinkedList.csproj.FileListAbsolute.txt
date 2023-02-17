@@ -1,0 +1,9 @@
+C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\ReverseLinkedList\bin\Debug\ReverseLinkedList.exe.config
+C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\ReverseLinkedList\bin\Debug\ReverseLinkedList.exe
+C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\ReverseLinkedList\bin\Debug\ReverseLinkedList.pdb
+C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.csproj.AssemblyReference.cache
+C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.Properties.Resources.resources
+C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.csproj.GenerateResource.cache
+C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.exe
+C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.pdb
