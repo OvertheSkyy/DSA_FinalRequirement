@@ -53,6 +53,7 @@ namespace BinaryTreeTraversal
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panelOutput.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -230,9 +231,9 @@ namespace BinaryTreeTraversal
             // pictureBox2
             // 
             this.pictureBox2.Image = global::BinaryTreeTraversal.Properties.Resources.red;
-            this.pictureBox2.Location = new System.Drawing.Point(387, 152);
+            this.pictureBox2.Location = new System.Drawing.Point(375, 152);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(47, 43);
+            this.pictureBox2.Size = new System.Drawing.Size(62, 57);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
@@ -318,11 +319,21 @@ namespace BinaryTreeTraversal
             this.pictureBox15.TabIndex = 17;
             this.pictureBox15.TabStop = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.LightGray;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Location = new System.Drawing.Point(386, 172);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(40, 20);
+            this.textBox1.TabIndex = 18;
+            // 
             // BinaryTreeTraversal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(964, 538);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox15);
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.pictureBox6);
@@ -360,6 +371,7 @@ namespace BinaryTreeTraversal
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -390,6 +402,7 @@ namespace BinaryTreeTraversal
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

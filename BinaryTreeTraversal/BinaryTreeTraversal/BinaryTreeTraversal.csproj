@@ -83,5 +83,17 @@
   <ItemGroup>
     <None Include="Resources\red-circle-1155276042606ekqvli9k-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle-PNG-File-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-orange-circle-31629671862x5a7emdbq3-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-circle-clipart-blue-circle-png-image_2381949-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
