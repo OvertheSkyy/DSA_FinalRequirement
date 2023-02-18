@@ -105,5 +105,10 @@ namespace BinaryTreeTraversal
             tree.PrintPostorder(tree.root);
             Console.WriteLine();
         }
+
+        private void labelLTR_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
