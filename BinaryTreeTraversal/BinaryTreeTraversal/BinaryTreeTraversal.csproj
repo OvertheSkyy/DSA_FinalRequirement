@@ -95,5 +95,26 @@
   <ItemGroup>
     <None Include="Resources\pngtree-circle-clipart-blue-circle-png-image_2381949-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red white circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red white circle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fenk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled design %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark golden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark golden %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark slate blue.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
