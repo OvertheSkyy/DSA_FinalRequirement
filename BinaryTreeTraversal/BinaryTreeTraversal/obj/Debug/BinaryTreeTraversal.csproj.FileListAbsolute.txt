@@ -16,3 +16,14 @@ C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeT
 C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.csproj.CoreCompileInputs.cache
 C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.exe
 C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.pdb
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\bin\Debug\BinaryTreeTraversal.exe.config
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\bin\Debug\BinaryTreeTraversal.exe
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\bin\Debug\BinaryTreeTraversal.pdb
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.csproj.AssemblyReference.cache
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.csproj.SuggestedBindingRedirects.cache
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.BinaryTreeTraversal.resources
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.Properties.Resources.resources
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.csproj.GenerateResource.cache
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.csproj.CoreCompileInputs.cache
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.exe
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.pdb

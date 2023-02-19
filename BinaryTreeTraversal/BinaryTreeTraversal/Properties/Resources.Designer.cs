@@ -73,6 +73,46 @@ namespace BinaryTreeTraversal.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dark_golden {
+            get {
+                object obj = ResourceManager.GetObject("dark golden", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dark_golden__1_ {
+            get {
+                object obj = ResourceManager.GetObject("dark golden (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dark_slate_blue {
+            get {
+                object obj = ResourceManager.GetObject("dark slate blue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fenk {
+            get {
+                object obj = ResourceManager.GetObject("fenk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap png_orange_circle_31629671862x5a7emdbq3_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("png-orange-circle-31629671862x5a7emdbq3-removebg-preview", resourceCulture);
@@ -106,6 +146,36 @@ namespace BinaryTreeTraversal.Properties {
         internal static System.Drawing.Bitmap red_circle_1155276042606ekqvli9k_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("red-circle-1155276042606ekqvli9k-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap red_white_circle {
+            get {
+                object obj = ResourceManager.GetObject("red white circle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap red_white_circle1 {
+            get {
+                object obj = ResourceManager.GetObject("red white circle1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
