@@ -103,6 +103,46 @@ namespace BinaryTreeTraversal.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download__4__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("download__4_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__5__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("download__5_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__7__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("download__7_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download__8__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("download__8_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fenk {
             get {
                 object obj = ResourceManager.GetObject("fenk", resourceCulture);
@@ -116,6 +156,17 @@ namespace BinaryTreeTraversal.Properties {
         internal static System.Drawing.Bitmap png_orange_circle_31629671862x5a7emdbq3_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("png-orange-circle-31629671862x5a7emdbq3-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_black_simple_and_proportional_thin_line_png_image_2319135_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-black-simple-and-proportional-thin-line-png-image_2319135-removebg-previe" +
+                        "w", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +217,16 @@ namespace BinaryTreeTraversal.Properties {
         internal static System.Drawing.Bitmap red_white_circle1 {
             get {
                 object obj = ResourceManager.GetObject("red white circle1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2023_02_19_201531_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot_2023-02-19_201531-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
