@@ -116,5 +116,20 @@
   <ItemGroup>
     <None Include="Resources\dark slate blue.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-black-simple-and-proportional-thin-line-png-image_2319135-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_2023-02-19_201531-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download__4_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download__5_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download__7_-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
