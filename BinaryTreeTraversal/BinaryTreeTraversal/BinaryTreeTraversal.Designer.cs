@@ -182,7 +182,7 @@ namespace BinaryTreeTraversal
             this.panel6.Controls.Add(this.labelTitle);
             this.panel6.Location = new System.Drawing.Point(1, 1);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(962, 67);
+            this.panel6.Size = new System.Drawing.Size(962, 58);
             this.panel6.TabIndex = 1;
             // 
             // labelTitle
@@ -191,7 +191,7 @@ namespace BinaryTreeTraversal
             this.labelTitle.BackColor = System.Drawing.Color.Transparent;
             this.labelTitle.Font = new System.Drawing.Font("Cambria", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitle.ForeColor = System.Drawing.Color.White;
-            this.labelTitle.Location = new System.Drawing.Point(329, 19);
+            this.labelTitle.Location = new System.Drawing.Point(325, 12);
             this.labelTitle.Name = "labelTitle";
             this.labelTitle.Size = new System.Drawing.Size(337, 32);
             this.labelTitle.TabIndex = 0;
@@ -222,9 +222,9 @@ namespace BinaryTreeTraversal
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
             this.pictureBox1.Image = global::BinaryTreeTraversal.Properties.Resources.Untitled_design__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(434, 74);
+            this.pictureBox1.Location = new System.Drawing.Point(434, 65);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 79);
+            this.pictureBox1.Size = new System.Drawing.Size(102, 85);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -302,7 +302,7 @@ namespace BinaryTreeTraversal
             // pictureBox14
             // 
             this.pictureBox14.Image = global::BinaryTreeTraversal.Properties.Resources.dark_golden__1_;
-            this.pictureBox14.Location = new System.Drawing.Point(189, 136);
+            this.pictureBox14.Location = new System.Drawing.Point(200, 136);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(92, 85);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -313,7 +313,7 @@ namespace BinaryTreeTraversal
             // 
             this.RootNodeTxtbx.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.RootNodeTxtbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RootNodeTxtbx.Location = new System.Drawing.Point(449, 105);
+            this.RootNodeTxtbx.Location = new System.Drawing.Point(450, 98);
             this.RootNodeTxtbx.Name = "RootNodeTxtbx";
             this.RootNodeTxtbx.Size = new System.Drawing.Size(70, 22);
             this.RootNodeTxtbx.TabIndex = 22;
@@ -324,7 +324,7 @@ namespace BinaryTreeTraversal
             this.LeftNodeTxtbx.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.LeftNodeTxtbx.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.LeftNodeTxtbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LeftNodeTxtbx.Location = new System.Drawing.Point(200, 167);
+            this.LeftNodeTxtbx.Location = new System.Drawing.Point(211, 167);
             this.LeftNodeTxtbx.Name = "LeftNodeTxtbx";
             this.LeftNodeTxtbx.Size = new System.Drawing.Size(70, 22);
             this.LeftNodeTxtbx.TabIndex = 23;

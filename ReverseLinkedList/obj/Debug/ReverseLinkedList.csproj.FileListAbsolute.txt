@@ -7,3 +7,14 @@ C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\Rev
 C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.csproj.CoreCompileInputs.cache
 C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.exe
 C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.pdb
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\ReverseLinkedList\bin\Debug\ReverseLinkedList.exe.config
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\ReverseLinkedList\bin\Debug\ReverseLinkedList.exe
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\ReverseLinkedList\bin\Debug\ReverseLinkedList.pdb
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.csproj.AssemblyReference.cache
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.csproj.SuggestedBindingRedirects.cache
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.Form1.resources
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.Properties.Resources.resources
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.csproj.GenerateResource.cache
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.exe
+C:\Users\Joyce Calangian\Desktop\DSA_FinalRequirement\ReverseLinkedList\obj\Debug\ReverseLinkedList.pdb
