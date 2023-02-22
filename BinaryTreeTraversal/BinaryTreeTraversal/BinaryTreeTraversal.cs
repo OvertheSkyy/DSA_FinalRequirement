@@ -1,28 +1,75 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BinaryTreeTraversal
 {
     public partial class BinaryTreeTraversal : Form
     {
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new BinaryTreeTraversal());
+        }
+
+        private BinaryTree tree;
+
         public BinaryTreeTraversal()
         {
             InitializeComponent();
+            tree = new BinaryTree();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void InfixBtn_Click(object sender, EventArgs e)
         {
-            // Code for Form1_Load event handler
+            SetBinaryTree();
+            InfixOutput.Text = "Inorder traversal: " + tree.GetInorder();
         }
 
-        public class Node
+        private void PrefixBtn_Click(object sender, EventArgs e)
+        {
+            SetBinaryTree();
+            PrefixOutput.Text = "Preorder traversal: " + tree.GetPreorder();
+        }
+
+        private void PostfixBtn_Click(object sender, EventArgs e)
+        {
+            SetBinaryTree();
+            PostfixOutput.Text = "Postorder traversal: " + tree.GetPostorder();
+
+        }
+
+        private void SetBinaryTree()
+        {
+            //Root node of the binary tree
+            tree.root = new Node(RootNodeTxtbx.Text);
+            
+            //Right side of the binary tree
+            tree.root.right = new Node(RightNodetxtbx.Text);
+
+            tree.root.right.left = new Node(RLNodeTxtbx.Text);
+            tree.root.right.left.left = new Node(RLLNodeTxtbx.Text);
+            tree.root.right.left.right = new Node(RLRNodeTxtbx.Text);
+
+            tree.root.right.right = new Node(RRNodeTxtbx.Text);
+            tree.root.right.right.left = new Node(RRLNodeTxtbx.Text);
+            tree.root.right.right.right = new Node(RRRNodeTxtbx.Text);
+
+            //Left side of the binary tree
+            tree.root.left = new Node(LeftNodeTxtbx.Text);
+
+            tree.root.left.left = new Node(LLNodeTxtbx.Text);
+            tree.root.left.left.left = new Node(LLLNodeTxtbx.Text);
+            tree.root.left.left.right = new Node(LLRNodeTxtbx.Text);
+
+            tree.root.left.right = new Node(LRNodeTxtbx.Text);
+            tree.root.left.right.left = new Node(LRLNodeTxtbx.Text);
+            tree.root.left.right.right = new Node(LRRNodeTxtbx.Text);
+
+        }
+
+        private class Node
         {
             public string data;
             public Node left, right;
@@ -34,7 +81,7 @@ namespace BinaryTreeTraversal
             }
         }
 
-        public class BinaryTree
+        private class BinaryTree
         {
             public Node root;
 
@@ -43,68 +90,62 @@ namespace BinaryTreeTraversal
                 root = null;
             }
 
-            public void PrintInorder(Node node)
+            public string GetInorder()
             {
-                if (node == null)
-                {
-                    return;
-                }
-
-                PrintInorder(node.left);
-                Console.Write(node.data + " ");
-                PrintInorder(node.right);
+                return TraverseInorder(root);
             }
 
-            public void PrintPreorder(Node node)
+            private string TraverseInorder(Node node)
             {
                 if (node == null)
                 {
-                    return;
+                    return "";
                 }
 
-                Console.Write(node.data + " ");
-                PrintPreorder(node.left);
-                PrintPreorder(node.right);
+                string result = "";
+                result += TraverseInorder(node.left);
+                result += node.data + " ";
+                result += TraverseInorder(node.right);
+                return result;
             }
 
-            public void PrintPostorder(Node node)
+            public string GetPreorder()
+            {
+                return TraversePreorder(root);
+            }
+
+            private string TraversePreorder(Node node)
             {
                 if (node == null)
                 {
-                    return;
+                    return "";
                 }
 
-                PrintPostorder(node.left);
-                PrintPostorder(node.right);
-                Console.Write(node.data + " ");
+                string result = "";
+                result += node.data + " ";
+                result += TraversePreorder(node.left);
+                result += TraversePreorder(node.right);
+                return result;
+            }
+
+            public string GetPostorder()
+            {
+                return TraversePostorder(root);
+            }
+
+            private string TraversePostorder(Node node)
+            {
+                if (node == null)
+                {
+                    return "";
+                }
+
+                string result = "";
+                result += TraversePostorder(node.left);
+                result += TraversePostorder(node.right);
+                result += node.data + " ";
+                return result;
             }
         }
-
-        public static void Main()
-        {
-            BinaryTree tree = new BinaryTree();
-
-            // 5 both sides (bali 11 nodes)
-            tree.root = new Node("Button1"); // buttons sa form1 (pa-tree yung style)
-            tree.root.left = new Node("Button2");
-            tree.root.right = new Node("Button3");
-            tree.root.left.left = new Node("Button4");
-            tree.root.left.right = new Node("Button5");
-
-
-            // output sa babang side ng forms with label (inorder(LTR), TLR, LRT)
-            Console.Write("Inorder traversal: ");
-            tree.PrintInorder(tree.root);
-            Console.WriteLine(); //palabasin niyo ako sa forms mga pareh
-
-            Console.Write("Preorder traversal: ");
-            tree.PrintPreorder(tree.root);
-            Console.WriteLine();
-
-            Console.Write("Postorder traversal: ");
-            tree.PrintPostorder(tree.root);
-            Console.WriteLine();
-        }
-
     }
 }

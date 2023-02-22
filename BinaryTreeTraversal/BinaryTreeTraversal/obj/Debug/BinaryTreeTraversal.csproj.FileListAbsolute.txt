@@ -38,3 +38,4 @@ C:\Users\user\Documents\GitHub\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTr
 C:\Users\user\Documents\GitHub\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.csproj.CoreCompileInputs.cache
 C:\Users\user\Documents\GitHub\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.exe
 C:\Users\user\Documents\GitHub\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.pdb
+C:\Users\caskie\Desktop\DSA\DSA_FinalRequirement\BinaryTreeTraversal\BinaryTreeTraversal\obj\Debug\BinaryTreeTraversal.BinaryTreeTraversal.resources
